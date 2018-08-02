@@ -1,0 +1,18 @@
+env: dev
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: Tsy_12345
+    url: jdbc:mysql://127.0.0.1/sell?characterEncoding=utf-8&useSSL=false
+  jackson:
+    default-property-inclusion: non_null
+
+# 更改负载均衡策略，默认是RoundRobinRule轮询策略
+#PRODUCT:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+
+gril:
+  name: 王大锤
+  age: 28
