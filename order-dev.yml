@@ -14,5 +14,5 @@ spring:
 #    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
 
 gril:
-  name: 王大锤
+  name: 菜鸟
   age: 77
