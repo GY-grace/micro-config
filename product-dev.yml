@@ -5,5 +5,10 @@ spring:
     username: root
     password: Tsy_12345
     url: jdbc:mysql://127.0.0.1/sell?characterEncoding=utf-8&useSSL=false
+  rabbitmq:
+    host: localhost
+    username: guest
+    password: guest
+    port: 5672
   jackson:
     default-property-inclusion: non_null
